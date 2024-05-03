@@ -69,7 +69,7 @@ The Student Portal is designed to provide a platform for students and faculty of
 
 ### Preview
 
-![Home Page](img/git/home.png)
+![Home Page](img/github/home.png)
 
 ![Student Application](img/github/apply.png)
 
