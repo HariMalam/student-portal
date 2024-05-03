@@ -52,6 +52,7 @@ The Student Portal is designed to provide a platform for students and faculty of
 4. **Set Up TCPDF**
 
    - Inside the `Generate` folder, create a folder named `tcpdf`.
+   
       ```bash
      mkdir tcpdf
      ```
