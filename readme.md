@@ -26,22 +26,27 @@ The Student Portal is designed to provide a platform for students and faculty of
 
 2. **Download Project**
 
-   - Download the project zip file from [here](https://github.com/GEC-G/mini-project-team-adikarah).
+   - Download the project zip file from [here](https://github.com/HariMalam/student-portal.git).
    - Extract the downloaded zip file into the `htdocs` folder of your XAMPP installation. (Usually located at `C:\xampp\htdocs`)
 
      You can do this by following these steps:
 
-     - Open your web browser and visit [https://github.com/GEC-G/mini-project-team-adikarah](https://github.com/GEC-G/mini-project-team-adikarah).
+     - Open your web browser and visit [https://github.com/HariMalam/student-portal.git](https://github.com/HariMalam/student-portal.git).
      - Click on the green "Code" button and select "Download ZIP".
      - Once downloaded, extract the contents of the ZIP file into the `htdocs` folder.
 
 3. **Navigate to Project Directory**
 
-   - Open a terminal and navigate to the `mini-project-team-adikarah` folder inside `htdocs`.
+   - Open a terminal and navigate to the `student-portal` folder inside `htdocs`.
 
      ```bash
-     cd C:xampp\htdocs\mini-project-team-adikarah
+     cd C:xampp\htdocs\student-portal
      ```
+   - Create Folder inside student-portal
+        ```bash
+     mkdir certificates
+     ```
+     
 
 4. **Set Up TCPDF**
 
