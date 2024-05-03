@@ -62,10 +62,10 @@ The Student Portal is designed to provide a platform for students and faculty of
 
    - Open phpMyAdmin in your browser by going to `http://localhost/phpmyadmin`.
    - Create a new database named `student-portal`.
-   - Go to the Import section and import the SQL file located at `mini-project-team-adikarah/database/student-portal.sql`.
+   - Go to the Import section and import the SQL file located at `student-portal/database/student-portal.sql`.
 
 6. **Access the Website**
-   - Now, you can access the website by going to `http://localhost/mini-project-team-adikarah` in your web browser.
+   - Now, you can access the website by going to `http://localhost/student-portal` in your web browser.
 
 ### Preview
 
