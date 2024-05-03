@@ -1,0 +1,51 @@
+.signup {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.btn-signup {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 14px;
+}
+
+.login {
+  margin: 10px 0px;
+}
+.login a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+p {
+  margin: 10px;
+}

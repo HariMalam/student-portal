@@ -1,0 +1,46 @@
+
+#applicationsTable {
+  width: 95%;
+  border-collapse: collapse;
+  margin: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#applicationsTable th,
+#applicationsTable td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#applicationsTable th {
+  background-color: #f2f2f2;
+}
+
+#applicationsTable tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.status {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.status.pending {
+  color: orange;
+}
+
+.status.approved {
+  color: green;
+}
+
+.status.rejected {
+  color: red;
+}
+
+
+.head{
+  text-align: center;
+  font-weight: bold;
+}

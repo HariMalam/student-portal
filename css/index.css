@@ -1,0 +1,9 @@
+.homeimg {
+  width: 98vw;
+  height: max-content;
+}
+
+.homeimg img {
+  padding: 20px 187px;
+  width: 100%;
+}

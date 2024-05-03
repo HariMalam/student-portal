@@ -1,0 +1,64 @@
+.applyform {
+  max-width: 50vw;
+  margin: 10px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.applyform div {
+  margin-bottom: 10px;
+}
+
+.applyform label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.applyform input[type="text"],
+.applyform input[type="number"],
+.applyform textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.applyform textarea {
+  height: 80px;
+}
+
+.applyform input[type="file"] {
+  margin-top: 5px;
+}
+
+.applyform button[type="submit"] {
+  padding: 10px 20px;
+  margin: 10px 0px;
+  background-color: #2ba3b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.applyform button[type="submit"]:hover {
+  background-color: #3e8996;
+}
+
+.media{
+  display: flex;
+  justify-content: space-between;
+}
+
+.head h1{
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
