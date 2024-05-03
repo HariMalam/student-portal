@@ -18,6 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = $_POST['id'];
     $current_date_time = date("Y-m-d_H-i-s");
     $pdf = "bonafide_" . $id . "_" . $current_date_time . ".pdf";
+    $_SESSION['pdf'] = $pdf;
     $sql = "UPDATE applications SET status = 'approved', pdf = '$pdf' WHERE id = '$id'";
     if ($conn->query($sql) === TRUE) {
       include_once('Generate/generate_certificate.php');

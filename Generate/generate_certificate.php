@@ -2,6 +2,8 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
+session_start();
+
 require_once('tcpdf/tcpdf.php');
 
 function generatePDF($id, $conn)
@@ -126,6 +128,7 @@ function generatePDF($id, $conn)
         // Save PDF to a file
         $current_date_time = date("Y-m-d_H-i-s");
         $pdfname = "bonafide_" . $id . "_" . $current_date_time . ".pdf";
+        $pdfname = $_SESSION['pdf'];
 
         $pdf->Output(__DIR__ . "/../certificates/" . $pdfname, 'F');
     }
