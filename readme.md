@@ -42,7 +42,7 @@ The Student Portal is designed to provide a platform for students and faculty of
      ```bash
      cd C:xampp\htdocs\student-portal
      ```
-   - Create Folder inside `student-portal`
+   - Create Folders inside `student-portal`
       ```bash
      mkdir certificates
      mkdir uploads
@@ -52,7 +52,7 @@ The Student Portal is designed to provide a platform for students and faculty of
 4. **Set Up TCPDF**
 
    - Inside the `Generate` folder, create a folder named `tcpdf`.
-         ```bash
+      ```bash
      mkdir tcpdf
      ```
    - Download [TCPDF](https://github.com/tecnickcom/TCPDF) and extract its contents into the newly created `tcpdf` folder.
